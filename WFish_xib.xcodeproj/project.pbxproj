@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABE833571D7C036900F5CE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE833561D7C036900F5CE8C /* main.m */; };
+		ABE8335A1D7C036900F5CE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE833591D7C036900F5CE8C /* AppDelegate.m */; };
+		ABE8335D1D7C036900F5CE8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8335C1D7C036900F5CE8C /* ViewController.m */; };
+		ABE833601D7C036900F5CE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE8335E1D7C036900F5CE8C /* Main.storyboard */; };
+		ABE833631D7C036900F5CE8C /* WFish_xib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABE833611D7C036900F5CE8C /* WFish_xib.xcdatamodeld */; };
+		ABE833651D7C036900F5CE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE833641D7C036900F5CE8C /* Assets.xcassets */; };
+		ABE833681D7C036900F5CE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE833661D7C036900F5CE8C /* LaunchScreen.storyboard */; };
+		ABE833731D7C036900F5CE8C /* WFish_xibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE833721D7C036900F5CE8C /* WFish_xibTests.m */; };
+		ABE8337E1D7C036900F5CE8C /* WFish_xibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8337D1D7C036900F5CE8C /* WFish_xibUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABE8336F1D7C036900F5CE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE8334A1D7C036900F5CE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE833511D7C036900F5CE8C;
+			remoteInfo = WFish_xib;
+		};
+		ABE8337A1D7C036900F5CE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE8334A1D7C036900F5CE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE833511D7C036900F5CE8C;
+			remoteInfo = WFish_xib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABE833521D7C036900F5CE8C /* WFish_xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFish_xib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE833561D7C036900F5CE8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABE833581D7C036900F5CE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABE833591D7C036900F5CE8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABE8335B1D7C036900F5CE8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABE8335C1D7C036900F5CE8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABE8335F1D7C036900F5CE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABE833621D7C036900F5CE8C /* WFish_xib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WFish_xib.xcdatamodel; sourceTree = "<group>"; };
+		ABE833641D7C036900F5CE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABE833671D7C036900F5CE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABE833691D7C036900F5CE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE8336E1D7C036900F5CE8C /* WFish_xibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFish_xibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE833721D7C036900F5CE8C /* WFish_xibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFish_xibTests.m; sourceTree = "<group>"; };
+		ABE833741D7C036900F5CE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE833791D7C036900F5CE8C /* WFish_xibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFish_xibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE8337D1D7C036900F5CE8C /* WFish_xibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFish_xibUITests.m; sourceTree = "<group>"; };
+		ABE8337F1D7C036900F5CE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABE8334F1D7C036900F5CE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE8336B1D7C036900F5CE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE833761D7C036900F5CE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABE833491D7C036900F5CE8C = {
+			isa = PBXGroup;
+			children = (
+				ABE833541D7C036900F5CE8C /* WFish_xib */,
+				ABE833711D7C036900F5CE8C /* WFish_xibTests */,
+				ABE8337C1D7C036900F5CE8C /* WFish_xibUITests */,
+				ABE833531D7C036900F5CE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE833531D7C036900F5CE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE833521D7C036900F5CE8C /* WFish_xib.app */,
+				ABE8336E1D7C036900F5CE8C /* WFish_xibTests.xctest */,
+				ABE833791D7C036900F5CE8C /* WFish_xibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE833541D7C036900F5CE8C /* WFish_xib */ = {
+			isa = PBXGroup;
+			children = (
+				ABE833581D7C036900F5CE8C /* AppDelegate.h */,
+				ABE833591D7C036900F5CE8C /* AppDelegate.m */,
+				ABE8335B1D7C036900F5CE8C /* ViewController.h */,
+				ABE8335C1D7C036900F5CE8C /* ViewController.m */,
+				ABE8335E1D7C036900F5CE8C /* Main.storyboard */,
+				ABE833641D7C036900F5CE8C /* Assets.xcassets */,
+				ABE833661D7C036900F5CE8C /* LaunchScreen.storyboard */,
+				ABE833691D7C036900F5CE8C /* Info.plist */,
+				ABE833611D7C036900F5CE8C /* WFish_xib.xcdatamodeld */,
+				ABE833551D7C036900F5CE8C /* Supporting Files */,
+			);
+			path = WFish_xib;
+			sourceTree = "<group>";
+		};
+		ABE833551D7C036900F5CE8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABE833561D7C036900F5CE8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABE833711D7C036900F5CE8C /* WFish_xibTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE833721D7C036900F5CE8C /* WFish_xibTests.m */,
+				ABE833741D7C036900F5CE8C /* Info.plist */,
+			);
+			path = WFish_xibTests;
+			sourceTree = "<group>";
+		};
+		ABE8337C1D7C036900F5CE8C /* WFish_xibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8337D1D7C036900F5CE8C /* WFish_xibUITests.m */,
+				ABE8337F1D7C036900F5CE8C /* Info.plist */,
+			);
+			path = WFish_xibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABE833511D7C036900F5CE8C /* WFish_xib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE833821D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xib" */;
+			buildPhases = (
+				ABE8334E1D7C036900F5CE8C /* Sources */,
+				ABE8334F1D7C036900F5CE8C /* Frameworks */,
+				ABE833501D7C036900F5CE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFish_xib;
+			productName = WFish_xib;
+			productReference = ABE833521D7C036900F5CE8C /* WFish_xib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABE8336D1D7C036900F5CE8C /* WFish_xibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE833851D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xibTests" */;
+			buildPhases = (
+				ABE8336A1D7C036900F5CE8C /* Sources */,
+				ABE8336B1D7C036900F5CE8C /* Frameworks */,
+				ABE8336C1D7C036900F5CE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE833701D7C036900F5CE8C /* PBXTargetDependency */,
+			);
+			name = WFish_xibTests;
+			productName = WFish_xibTests;
+			productReference = ABE8336E1D7C036900F5CE8C /* WFish_xibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABE833781D7C036900F5CE8C /* WFish_xibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE833881D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xibUITests" */;
+			buildPhases = (
+				ABE833751D7C036900F5CE8C /* Sources */,
+				ABE833761D7C036900F5CE8C /* Frameworks */,
+				ABE833771D7C036900F5CE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE8337B1D7C036900F5CE8C /* PBXTargetDependency */,
+			);
+			name = WFish_xibUITests;
+			productName = WFish_xibUITests;
+			productReference = ABE833791D7C036900F5CE8C /* WFish_xibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABE8334A1D7C036900F5CE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱佳杰";
+				TargetAttributes = {
+					ABE833511D7C036900F5CE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ABE8336D1D7C036900F5CE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ABE833511D7C036900F5CE8C;
+					};
+					ABE833781D7C036900F5CE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ABE833511D7C036900F5CE8C;
+					};
+				};
+			};
+			buildConfigurationList = ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "WFish_xib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABE833491D7C036900F5CE8C;
+			productRefGroup = ABE833531D7C036900F5CE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABE833511D7C036900F5CE8C /* WFish_xib */,
+				ABE8336D1D7C036900F5CE8C /* WFish_xibTests */,
+				ABE833781D7C036900F5CE8C /* WFish_xibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABE833501D7C036900F5CE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE833681D7C036900F5CE8C /* LaunchScreen.storyboard in Resources */,
+				ABE833651D7C036900F5CE8C /* Assets.xcassets in Resources */,
+				ABE833601D7C036900F5CE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE8336C1D7C036900F5CE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE833771D7C036900F5CE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABE8334E1D7C036900F5CE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE8335D1D7C036900F5CE8C /* ViewController.m in Sources */,
+				ABE833631D7C036900F5CE8C /* WFish_xib.xcdatamodeld in Sources */,
+				ABE8335A1D7C036900F5CE8C /* AppDelegate.m in Sources */,
+				ABE833571D7C036900F5CE8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE8336A1D7C036900F5CE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE833731D7C036900F5CE8C /* WFish_xibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE833751D7C036900F5CE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE8337E1D7C036900F5CE8C /* WFish_xibUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABE833701D7C036900F5CE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE833511D7C036900F5CE8C /* WFish_xib */;
+			targetProxy = ABE8336F1D7C036900F5CE8C /* PBXContainerItemProxy */;
+		};
+		ABE8337B1D7C036900F5CE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE833511D7C036900F5CE8C /* WFish_xib */;
+			targetProxy = ABE8337A1D7C036900F5CE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABE8335E1D7C036900F5CE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE8335F1D7C036900F5CE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABE833661D7C036900F5CE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE833671D7C036900F5CE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABE833801D7C036900F5CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABE833811D7C036900F5CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABE833831D7C036900F5CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFish_xib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE833841D7C036900F5CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFish_xib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE833861D7C036900F5CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WFish_xibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFish_xib.app/WFish_xib";
+			};
+			name = Debug;
+		};
+		ABE833871D7C036900F5CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WFish_xibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFish_xib.app/WFish_xib";
+			};
+			name = Release;
+		};
+		ABE833891D7C036900F5CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WFish_xibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFish_xib;
+			};
+			name = Debug;
+		};
+		ABE8338A1D7C036900F5CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WFish_xibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjitteam.WFish-xibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFish_xib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "WFish_xib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE833801D7C036900F5CE8C /* Debug */,
+				ABE833811D7C036900F5CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE833821D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE833831D7C036900F5CE8C /* Debug */,
+				ABE833841D7C036900F5CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABE833851D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE833861D7C036900F5CE8C /* Debug */,
+				ABE833871D7C036900F5CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABE833881D7C036900F5CE8C /* Build configuration list for PBXNativeTarget "WFish_xibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE833891D7C036900F5CE8C /* Debug */,
+				ABE8338A1D7C036900F5CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABE833611D7C036900F5CE8C /* WFish_xib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABE833621D7C036900F5CE8C /* WFish_xib.xcdatamodel */,
+			);
+			currentVersion = ABE833621D7C036900F5CE8C /* WFish_xib.xcdatamodel */;
+			path = WFish_xib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABE8334A1D7C036900F5CE8C /* Project object */;
+}
