@@ -10,4 +10,15 @@
 
 @implementation pondModels
 
++ (instancetype)assignDataWithArr:(NSArray *)arr{
+    return [[self alloc]initWithArr:arr];
+}
+
+- (instancetype)initWithArr:(NSArray *)arr{
+    if (self = [super init]){
+        self.pondInfoArr = arr;
+    }
+    return self;
+}
+
 @end

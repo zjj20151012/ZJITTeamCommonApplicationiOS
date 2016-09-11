@@ -16,7 +16,6 @@
 }
 
 - (instancetype)initWithArr:(NSArray *)arr{
-    
     if (self = [super init]){
         self.pondNameArr = arr;
     }

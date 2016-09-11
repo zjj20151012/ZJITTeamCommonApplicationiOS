@@ -10,4 +10,8 @@
 
 @interface pondModels : NSObject
 
+@property (strong, nonatomic) NSArray *pondInfoArr;
++ (instancetype) assignDataWithArr:(NSArray *)arr;
+- (instancetype) initWithArr:(NSArray *)arr;
+
 @end
