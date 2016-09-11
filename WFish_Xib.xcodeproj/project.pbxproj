@@ -120,6 +120,7 @@
 		ABE833681D7C036900F5CE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE833661D7C036900F5CE8C /* LaunchScreen.storyboard */; };
 		ABE833731D7C036900F5CE8C /* WFish_xibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE833721D7C036900F5CE8C /* WFish_xibTests.m */; };
 		ABE8337E1D7C036900F5CE8C /* WFish_xibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8337D1D7C036900F5CE8C /* WFish_xibUITests.m */; };
+		ABFA2ADA1D842ECE0069D6A8 /* commonHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA2AD91D842ECE0069D6A8 /* commonHttpTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,6 +317,8 @@
 		ABE833791D7C036900F5CE8C /* WFish_xibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFish_xibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE8337D1D7C036900F5CE8C /* WFish_xibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFish_xibUITests.m; sourceTree = "<group>"; };
 		ABE8337F1D7C036900F5CE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFA2AD81D842ECE0069D6A8 /* commonHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonHttpTools.h; sourceTree = "<group>"; };
+		ABFA2AD91D842ECE0069D6A8 /* commonHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commonHttpTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -812,6 +815,7 @@
 		ABE833491D7C036900F5CE8C = {
 			isa = PBXGroup;
 			children = (
+				ABFA2AD71D842E110069D6A8 /* httpTools */,
 				ABE249901D7C05FB00ABDA81 /* 3rd */,
 				ABE249E21D7C05FB00ABDA81 /* childViewControllers */,
 				ABE249E31D7C05FB00ABDA81 /* commenContent */,
@@ -875,6 +879,15 @@
 				ABE8337F1D7C036900F5CE8C /* Info.plist */,
 			);
 			path = WFish_xibUITests;
+			sourceTree = "<group>";
+		};
+		ABFA2AD71D842E110069D6A8 /* httpTools */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA2AD81D842ECE0069D6A8 /* commonHttpTools.h */,
+				ABFA2AD91D842ECE0069D6A8 /* commonHttpTools.m */,
+			);
+			path = httpTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -956,7 +969,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "Fish_Xib" */;
+			buildConfigurationList = ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "WFish_Xib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1101,6 +1114,7 @@
 				ABE24A8A1D7C101D00ABDA81 /* pondNavVC.m in Sources */,
 				ABE24AA31D7C242E00ABDA81 /* pondVC.m in Sources */,
 				ABE24A351D7C05FB00ABDA81 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				ABFA2ADA1D842ECE0069D6A8 /* commonHttpTools.m in Sources */,
 				ABE24ABD1D7C24C500ABDA81 /* dialogModels.m in Sources */,
 				ABE24AC51D7C290D00ABDA81 /* homeCells.m in Sources */,
 				ABE24A1A1D7C05FB00ABDA81 /* AFNetworkReachabilityManager.m in Sources */,
@@ -1323,7 +1337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "Fish_Xib" */ = {
+		ABE8334D1D7C036900F5CE8C /* Build configuration list for PBXProject "WFish_Xib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABE833801D7C036900F5CE8C /* Debug */,

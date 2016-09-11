@@ -7,18 +7,32 @@
 //
 
 #import "homeCells.h"
+#import "homeModels.h"
 
-@implementation homeCells
+@implementation homeTitleCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
++ (instancetype)initHomeTitleCell:(UITableView *)tView andCellIdentify:(NSString *)cellIdentify{
+    homeTitleCell *cell = [tView dequeueReusableCellWithIdentifier:cellIdentify];
+    if (cell == nil){
+        cell = [[[NSBundle mainBundle]loadNibNamed:@"homeCells" owner:self options:nil]firstObject];
+    }
+    return cell;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+- (void)assignData:(NSDictionary *)data{
+    self.cellNameLabel.text = data[@"pondName"];
+}
 
-    // Configure the view for the selected state
+@end
+
+@implementation homeDetailCell
+
++ (instancetype)initHomeDetailCell:(UITableView *)tView andCellIdentify:(NSString *)cellIdentify{
+    homeDetailCell *cell = [tView dequeueReusableCellWithIdentifier:cellIdentify];
+    if (cell == nil){
+        cell = [[[NSBundle mainBundle]loadNibNamed:@"homeCells" owner:self options:nil]lastObject];
+    }
+    return cell;
 }
 
 @end

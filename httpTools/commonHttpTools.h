@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "homeModels.h"
+
+typedef void (^homeBlock)(homeModels *);
 
 @interface commonHttpTools : NSObject
+
+@property (nonatomic, copy) homeBlock hBlock;
+
+- (void)getHomePageHttpWithParam:(NSString *)param;
 
 @end

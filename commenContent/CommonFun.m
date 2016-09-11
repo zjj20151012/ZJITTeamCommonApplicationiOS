@@ -9,6 +9,9 @@
 #import "CommonObj.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <Foundation/Foundation.h>
+#import "AFNetworkReachabilityManager.h"
+#import "SVProgressHUD.h"
+
 
 static commonObj* _comObj;
 commonObj* g(){
@@ -130,4 +133,31 @@ NSString* stringFromHexString(NSString* hexString){
     NSLog(@"------字符串=======%@",unicodeString);
     return unicodeString; 
 
+}
+
+//监测网络状态
+void didNetWorkConnect(){
+    AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
+
+    [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        //当网络状态发生变化时会调用这个block
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+                NSLog(@"WiFi");
+                break;
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+                NSLog(@"手机网络");
+                break;
+            case AFNetworkReachabilityStatusNotReachable:
+                [SVProgressHUD showErrorWithStatus:@"无法连接网络,请检查网络连接"];
+                break;
+            case AFNetworkReachabilityStatusUnknown:
+                NSLog(@"未知网络");
+                break;
+                
+            default:
+                break;
+        }
+    }];
+    [manager startMonitoring];
 }

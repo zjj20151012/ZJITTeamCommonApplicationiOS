@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface homeView : UIView
+@interface homeView : UITableView
 
 @end

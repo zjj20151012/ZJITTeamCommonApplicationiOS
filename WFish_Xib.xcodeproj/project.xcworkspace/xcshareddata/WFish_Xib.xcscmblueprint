@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C3F9231746679F9ED982C89B9691354B797818A0+++85B4FB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C3F9231746679F9ED982C89B9691354B797818A0+++85B4FB7" : 9223372036854775807,
+    "C3F9231746679F9ED982C89B9691354B797818A0+++8CA0A5D" : 9223372036854775807,
+    "C3F9231746679F9ED982C89B9691354B797818A0+++8BEC8B8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4373EAF7-130E-4C3F-AB10-C496C80CA900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C3F9231746679F9ED982C89B9691354B797818A0+++85B4FB7" : "MyApplication\/",
+    "C3F9231746679F9ED982C89B9691354B797818A0+++8CA0A5D" : "",
+    "C3F9231746679F9ED982C89B9691354B797818A0+++8BEC8B8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WFish_Xib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WFish_Xib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zjj20151012\/ZJITTeamCommonApplicationiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3F9231746679F9ED982C89B9691354B797818A0+++85B4FB7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zjj20151012\/ZJITTeamCommonApplicationiOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3F9231746679F9ED982C89B9691354B797818A0+++8BEC8B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zjj20151012\/ZJITTeamCommonApplicationiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3F9231746679F9ED982C89B9691354B797818A0+++8CA0A5D"
+    }
+  ]
+}

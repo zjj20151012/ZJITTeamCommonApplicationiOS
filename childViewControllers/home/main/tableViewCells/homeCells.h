@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "homeModels.h"
 
-@interface homeCells : UITableViewCell
+@interface homeTitleCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *cellNameLabel;
+
++ (instancetype)initHomeTitleCell:(UITableView *)tView andCellIdentify:(NSString *)cellIdentify;
+
+- (void)assignData:(NSDictionary *)data;
+
+@end
+
+@interface homeDetailCell : UITableViewCell
+
++ (instancetype)initHomeDetailCell:(UITableView *)tView andCellIdentify:(NSString *)cellIdentify;
 
 @end

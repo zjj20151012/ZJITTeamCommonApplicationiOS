@@ -22,3 +22,5 @@ BOOL didNull(id sender);
 NSString* hexStringFromString(NSString* string);
 // 16进制转字符串
 NSString* stringFromHexString(NSString* hexString);
+//监测网络状态
+void didNetWorkConnect();

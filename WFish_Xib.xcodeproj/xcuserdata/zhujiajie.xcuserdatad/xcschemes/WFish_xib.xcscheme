@@ -17,7 +17,7 @@
                BlueprintIdentifier = "ABE833511D7C036900F5CE8C"
                BuildableName = "WFish_xib.app"
                BlueprintName = "WFish_xib"
-               ReferencedContainer = "container:Fish_Xib.xcodeproj">
+               ReferencedContainer = "container:WFish_Xib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "ABE8336D1D7C036900F5CE8C"
                BuildableName = "WFish_xibTests.xctest"
                BlueprintName = "WFish_xibTests"
-               ReferencedContainer = "container:Fish_Xib.xcodeproj">
+               ReferencedContainer = "container:WFish_Xib.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "ABE833781D7C036900F5CE8C"
                BuildableName = "WFish_xibUITests.xctest"
                BlueprintName = "WFish_xibUITests"
-               ReferencedContainer = "container:Fish_Xib.xcodeproj">
+               ReferencedContainer = "container:WFish_Xib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "ABE833511D7C036900F5CE8C"
             BuildableName = "WFish_xib.app"
             BlueprintName = "WFish_xib"
-            ReferencedContainer = "container:Fish_Xib.xcodeproj">
+            ReferencedContainer = "container:WFish_Xib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "ABE833511D7C036900F5CE8C"
             BuildableName = "WFish_xib.app"
             BlueprintName = "WFish_xib"
-            ReferencedContainer = "container:Fish_Xib.xcodeproj">
+            ReferencedContainer = "container:WFish_Xib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "ABE833511D7C036900F5CE8C"
             BuildableName = "WFish_xib.app"
             BlueprintName = "WFish_xib"
-            ReferencedContainer = "container:Fish_Xib.xcodeproj">
+            ReferencedContainer = "container:WFish_Xib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

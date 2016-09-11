@@ -7,6 +7,8 @@
 //
 
 #import "homeNavVC.h"
+#import "Const.h"
+#import "homeVC.h"
 
 @interface homeNavVC ()
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.navigationBar.titleTextAttributes =@{
+                                              NSForegroundColorAttributeName: [UIColor whiteColor],
+                                              NSFontAttributeName : [UIFont boldSystemFontOfSize:18]
+                                              };
+    self.navigationBar.barTintColor = COLOR_MAIN;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning {

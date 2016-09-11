@@ -14,9 +14,15 @@
 
 @implementation homeVC
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"首页";
+   
 }
 
 - (void)didReceiveMemoryWarning {

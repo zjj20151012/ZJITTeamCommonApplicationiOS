@@ -10,4 +10,10 @@
 
 @interface homeModels : NSObject
 
+@property (strong, nonatomic) NSArray *pondNameArr;
++ (instancetype) assignDataWithArr:(NSArray *)arr;
+- (instancetype) initWithArr:(NSArray *)arr;
+
+
+
 @end

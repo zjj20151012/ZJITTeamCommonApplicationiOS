@@ -7,6 +7,7 @@
 //
 
 #import "mainTabVC.h"
+#import "Const.h"
 
 @interface mainTabVC ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.tabBar.tintColor = COLOR_MAIN;
+    
 }
 
 - (void)didReceiveMemoryWarning {

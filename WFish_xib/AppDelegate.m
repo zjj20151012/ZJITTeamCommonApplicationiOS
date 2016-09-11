@@ -7,6 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "mainTabVC.h"
+#import "homeNavVC.h"
+#import "pondNavVC.h"
+#import "dialogNavVC.h"
+#import "myNavVC.h"
+#import "homeVC.h"
+#import "pondVC.h"
+#import "dialogVC.h"
+#import "myVC.h"
+#import "SVProgressHUD.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +27,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    mainTabVC *vc = [[mainTabVC alloc]init];
+    homeNavVC *homeNav = [[homeNavVC alloc]initWithRootViewController:[[homeVC alloc]initWithNibName:@"homeVC" bundle:nil]];
+    pondNavVC *pondNav = [[pondNavVC alloc]initWithRootViewController:[[pondVC alloc]initWithNibName:@"pondVC" bundle:nil]];
+    dialogNavVC *dialogNav = [[dialogNavVC alloc]initWithRootViewController:[[dialogVC alloc]initWithNibName:@"dialogVC" bundle:nil]];
+    myNavVC *myNav = [[myNavVC alloc]initWithRootViewController:[[myVC alloc]initWithNibName:@"myVC" bundle:nil]];
+    homeNav.tabBarItem.image = [UIImage imageNamed:@"homePage_gray"];
+    homeNav.tabBarItem.title = @"首页";
+    [homeNav setTitle:@"首页"];
+    pondNav.tabBarItem.image = [UIImage imageNamed:@"fish_gray"];
+    pondNav.tabBarItem.title = @"塘口";
+    dialogNav.tabBarItem.image = [UIImage imageNamed:@"rizhi_gray"];
+    dialogNav.tabBarItem.title = @"日志";
+    myNav.tabBarItem.image = [UIImage imageNamed:@"account"];
+    myNav.tabBarItem.title = @"我的";
+    vc.viewControllers = @[homeNav,pondNav,dialogNav,myNav];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    [SVProgressHUD setBackgroundColor:[UIColor blackColor]];
+    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
     return YES;
 }
 
