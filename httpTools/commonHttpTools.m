@@ -45,8 +45,9 @@
             }
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             [SVProgressHUD showErrorWithStatus:@"网络错误"];
-            NSLog(@"123");
+            NSLog(@"sadfggdf");
         }];
+    
 
 }
 
